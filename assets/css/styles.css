@@ -1,0 +1,44 @@
+body {
+    background-color: #000;
+    color: #00FF00;
+    font-family: monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.terminal {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.body {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-line {
+    display: flex;
+    align-items: center;
+}
+.prompt {
+    margin-right: 10px;
+}
+input {
+    background: none;
+    border: none;
+    color: #00FF00;
+    width: 100%;
+    font-family: monospace;
+}
