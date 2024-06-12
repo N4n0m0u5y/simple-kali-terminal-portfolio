@@ -55,7 +55,7 @@ EOT
 # Basic CSS
 cat <<EOT > assets/css/styles.css
 body {
-    background-image: url('../assets/img/tech-background.png'); /* Use the background image */
+    background-image: url('../img/tech-background.png'); /* Use the background image */
     background-size: cover;
     color: #00FF00;
     font-family: monospace;
