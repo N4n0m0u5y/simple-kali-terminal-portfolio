@@ -17,7 +17,7 @@ echo "{
   \"main\": \"src/index.js\",
   \"scripts\": {
     \"start\": \"node src/index.js\",
-    \"test\": \"echo \\"Error: no test specified\\" && exit 1\"
+    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"
   },
   \"dependencies\": {
     \"openai\": \"^3.0.0\"
@@ -27,27 +27,27 @@ echo "{
 # HTML Structure
 cat <<EOT > src/index.html
 <!DOCTYPE html>
-<html lang=\"en\">
+<html lang="en">
 <head>
-    <meta charset=\"UTF-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Kali Terminal Portfolio</title>
-    <link rel=\"stylesheet\" href=\"../assets/css/styles.css\">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <div class=\"terminal\">
-        <div class=\"header\">
-            <span class=\"title\">Kali Terminal</span>
+    <div class="terminal">
+        <div class="header">
+            <span class="title">Kali Terminal</span>
         </div>
-        <div class=\"body\">
-            <pre id=\"output\">Welcome to the Simple Kali Terminal Portfolio!</pre>
-            <div class=\"input-line\">
-                <span class=\"prompt\">$</span>
-                <input type=\"text\" id=\"input\" autofocus autocomplete=\"off\">
+        <div class="body">
+            <pre id="output">Welcome to the Simple Kali Terminal Portfolio!</pre>
+            <div class="input-line">
+                <span class="prompt">$</span>
+                <input type="text" id="input" autofocus autocomplete="off">
             </div>
         </div>
     </div>
-    <script src=\"../assets/js/scripts.js\"></script>
+    <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
 EOT
